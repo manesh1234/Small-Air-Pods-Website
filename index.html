@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>AirPods Website</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav__logo">AirPods</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Description</a></li>
+                        <li class="nav__item"><a href="#l-section" class="nav__link">Specifications</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__actions">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <img src="assets/icons/bx-chevron-down.svg" alt="">
+                    </div>
+                    <a href="https://www.apple.com/in/shop/product/MV7N2HN/A/airpods-with-charging-case" class="nav__btn">Buy Now</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- HOME -->
+        <main class="l-main bd-grid">
+            <section class="home">
+                <div class="home__data">
+                    <h1 class="home__title">AirPods</h1>
+                    <p class="home__description"><b>Build Using premium Quality material 
+                        and designed for Long Lasting Performance with Stability</b> 
+                    </p>
+                </div>
+    
+                <div class="home__img">
+                    <!-- IMG -->
+                    <img src="assets/img/airpod1.png" alt="" class="airpod1">
+                    <img src="assets/img/airpod2.png" alt="" class="airpod2">
+                </div>
+    
+                <div class="home__scroll">
+                    <span class="home__scroll-text">Scroll down for Specifications</span>
+                    <a href="#l-section"><img src="assets/icons/bx-mouse.svg" alt="" class="home__scroll-icon"></a>
+                </div>
+            </section>
+
+            <!-- DETAILS AIRPODS -->
+            <section class="l-section" id="l-section">
+                <div class="details">
+                    <div class="details__content">
+                        <div class="details__box">
+                            <span class="details__initial" style="font-size: 1.5rem;"><b>Battery stamina</b></span>
+                            <h3 class="details__title">24<span> hrs</span></h3>
+                            <p class="details__description">For a normal usage</p>
+                        </div>
+                        <div class="details__box">
+                            <h3 class="details__title">5-6<span>hrs</span></h3>
+                            <p class="details__description">For Maximum Performance</p>
+                        </div>
+                        <div class="details__box">
+                            <div class="details__initial" style="font-size: 1.5rem;"><b>Some Unique Features</b></div>
+                            <div class="details__initial">1) Water Resitant</div>
+                            <div class="details__initial">2) Decent Battery Capacity</div>
+                            <div class="details__initial">3) Easy Bluetooth connectivity and Portability</div>
+                            <div class="details__initial">4) Best Build Quality</div>
+                        </div>
+                    </div>
+
+                    <div class="details__img">
+                        <img src="assets/img/airpods.png" alt="" class="airpods">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- TIMELINE MAX -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+
+        <!-- SCROLLMAGIC -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+        
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
